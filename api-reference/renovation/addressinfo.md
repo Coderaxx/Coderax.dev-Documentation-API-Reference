@@ -6,10 +6,12 @@ description: >-
 
 # AddressInfo
 
+### Sample query
+
 ```graphql
 query RenovationAPI {
     RenovationAPI {
-        AddressInfo(streetName: "Storgata", houseNumber: "1", postCode: "0150") {
+        AddressInfo(streetName: "Muségata", houseNumber: "40", postCode: "4010") {
             streetName
             houseNumber
             postCode
@@ -19,5 +21,25 @@ query RenovationAPI {
             providerName
         }
     }
+}
+```
+
+### Sample response
+
+```graphql
+{
+  "data": {
+    "RenovationAPI": {
+      "AddressInfo": {
+        "streetName": "Muségata",
+        "houseNumber": "40",
+        "postCode": "4010",
+        "streetCode": "1677",
+        "countyId": "1103",
+        "id": "c1e27c6c-c7d0-4f3d-9fd0-2fbebcf602f0",
+        "providerName": "Stavanger kommune"
+      }
+    }
+  }
 }
 ```

@@ -32,6 +32,7 @@
   * [Providers](api-reference/renovation/providers.md)
   * [AddressInfo](api-reference/renovation/addressinfo.md)
   * [CollectionDates](api-reference/renovation/collectiondates.md)
+  * [NextPickup](api-reference/renovation/nextpickup.md)
 * [🌊 WaterTempsAPI Reference](api-reference/watertemps/README.md)
   * [WaterTemperatures](api-reference/watertemps/watertemperatures.md)
   * [WaterTemperature](api-reference/watertemps/watertemperature.md)
