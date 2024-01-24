@@ -1,0 +1,264 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Avfallskalender API",
+    "description": "API for å hente ut avfallskalender fra ulike renovasjonsselskaper",
+    "version": "1.14.3",
+    "contact": {}
+  },
+  "servers": [
+    {
+      "url": "https://api.crdx.us/renovation",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/v1": {
+      "get": {
+        "summary": "Get all available endpoints",
+        "description": "Get all available endpoints",
+        "produces": [
+          "application/json"
+        ],
+        "tags": [
+          "Avfallskalender API"
+        ],
+        "responses": {
+          "400": {
+            "description": "Bad Request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "Authorization": []
+          }
+        ]
+      }
+    },
+    "/v1/calendar/{provider}/{AddressOrAddressId}/{streetCode}/{countyID}/{countyName}/{addressName}": {
+      "get": {
+        "summary": "Get calendar for address",
+        "description": "Get calendar for address",
+        "produces": [
+          "application/json"
+        ],
+        "tags": [
+          "Avfallskalender API"
+        ],
+        "parameters": [
+          {
+            "name": "provider",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "AddressOrAddressId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "streetCode",
+            "in": "path",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "countyID",
+            "in": "path",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "countyName",
+            "in": "path",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "addressName",
+            "in": "path",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {}
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "Authorization": []
+          }
+        ]
+      }
+    },
+    "/v1/providers": {
+      "get": {
+        "summary": "Get all providers",
+        "description": "Get all providers",
+        "produces": [
+          "application/json"
+        ],
+        "tags": [
+          "Avfallskalender API"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "Authorization": []
+          }
+        ]
+      }
+    },
+    "/v1/address": {
+      "post": {
+        "summary": "Get calendar for address",
+        "description": "Get calendar for address",
+        "produces": [
+          "application/json"
+        ],
+        "tags": [
+          "Avfallskalender API"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "streetName": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "houseNumber": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "postCode": {
+                    "type": "string",
+                    "example": ""
+                  },
+                  "providerName": {
+                    "type": "string",
+                    "example": ""
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {}
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "Authorization": []
+          }
+        ],
+        "x-codegen-request-body-name": "body"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "v1_address_body": {
+        "type": "object",
+        "properties": {
+          "streetName": {
+            "type": "string",
+            "example": ""
+          },
+          "houseNumber": {
+            "type": "string",
+            "example": ""
+          },
+          "postCode": {
+            "type": "string",
+            "example": ""
+          },
+          "providerName": {
+            "type": "string",
+            "example": ""
+          }
+        }
+      }
+    },
+    "links": {},
+    "callbacks": {},
+    "securitySchemes": {
+      "Authorization": {
+        "type": "apiKey",
+        "name": "x-api-key",
+        "in": "header"
+      }
+    },
+    "tags": [
+      {
+        "name": "Avfallskalender API",
+        "description": "v1"
+      }
+    ]
+  }
+}
