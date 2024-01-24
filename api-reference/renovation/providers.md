@@ -1,5 +1,16 @@
 ---
 description: Returns a list of all supported renovation providers through the API.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Providers

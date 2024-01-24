@@ -15,7 +15,9 @@ layout:
 
 # WaterTemperatures
 
-{% code lineNumbers="true" fullWidth="false" %}
+### Sample query
+
+{% code fullWidth="false" %}
 ```graphql
 query WaterTempsAPI {
     WaterTempsAPI {
@@ -34,3 +36,36 @@ query WaterTempsAPI {
 }
 ```
 {% endcode %}
+
+### Sample response
+
+```graphql
+{
+  "data": {
+    "WaterTempsAPI": {
+      "WaterTemperatures": [
+        {
+          "id": "1-2802414",
+          "name": "Flødevigen",
+          "kommune": "Arendal",
+          "region": "Agder",
+          "lat": 58.42664,
+          "lon": 8.75278,
+          "temperature": 4.3,
+          "time": "2024-01-24T10:04:00+01:00",
+          "sourceDisplayName": "Automatisk registrering"
+        },
+        {
+          "id": "1-7528",
+          "name": "Stølsviga",
+          "kommune": "Arendal",
+          "region": "Agder",
+          "lat": 58.4225,
+          "lon": 8.77026,
+          "temperature": 1,
+          "time": "2024-01-20T10:00:00+01:00",
+          "sourceDisplayName": null
+        },
+        
+        #... rest of the list
+```
