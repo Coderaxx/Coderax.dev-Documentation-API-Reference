@@ -20,7 +20,7 @@ Welcome to the starting point for the apps developed for Homey! This guide will 
 
 ### Understanding the Apps
 
-My Homey apps are tailored to provide users in Norway with access to specific services like public transport updates, weather data, and smart home controls. Each app has unique features that are carefully developed to meet your daily needs.
+My Homey apps are tailored to provide Homey Pro users with access to specific services like public transport updates, weather data, and smart home controls. Each app has unique features that are carefully developed to meet your daily needs.
 
 ### Finding and Installing the Apps
 
