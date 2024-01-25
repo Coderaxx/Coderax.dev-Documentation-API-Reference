@@ -43,5 +43,3 @@ The Package Tracking feature in the Norske Tjenester app allows users to track t
 ### **Privacy and Data Usage**
 
 * The app respects user privacy and only uses the tracking number to fetch relevant shipment information.
-
-\

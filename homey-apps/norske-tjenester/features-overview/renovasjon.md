@@ -47,5 +47,3 @@ The Waste Collection Reminders feature in the Norske Tjenester app ensures that 
 ### **Privacy and Data Usage**
 
 * The app respects user privacy and only uses the provided information to fetch relevant waste collection schedules.
-
-\

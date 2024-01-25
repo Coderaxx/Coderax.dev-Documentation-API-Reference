@@ -43,5 +43,3 @@ The Posten functionality in the Norske Tjenester app allows users to stay update
 ### **Privacy and Data Usage**
 
 * The app respects user privacy and only uses the postal code to fetch relevant mail delivery information.
-
-\
