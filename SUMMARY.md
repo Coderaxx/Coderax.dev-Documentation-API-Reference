@@ -3,10 +3,10 @@
 ## Basics
 
 * [👋 Welcome!](README.md)
-* [Quick Start](basics/quick-start.md)
 
 ## Homey Apps
 
+* [Getting Started](homey-apps/getting-started.md)
 * [🇳🇴 Norske tjenester](homey-apps/norske-tjenester/README.md)
   * [Introduction](homey-apps/norske-tjenester/introduction.md)
   * [Getting Started](homey-apps/norske-tjenester/getting-started.md)
