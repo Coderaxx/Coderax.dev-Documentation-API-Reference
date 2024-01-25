@@ -42,7 +42,7 @@ The Waste Collection Reminders feature in the Norske Tjenester app ensures that 
 
 * If you're not receiving reminders, check that you have selected the correct waste service provider and entered the correct area details.
 * Ensure your Homey Pro is connected to the internet for the app to fetch the latest schedules.
-* For additional support, users can create a diagnostic report within the Homey app and email it to nt@coderax.dev.
+* For additional support, users can create a diagnostic report within the Homey app and email it to [nt@coderax.dev](mailto:nt@coderax.dev?subject=Issue%20with%20Renovasjon%20in%20Norske%20tjenester%20for%20Homey%20Pro).
 
 ### **Privacy and Data Usage**
 

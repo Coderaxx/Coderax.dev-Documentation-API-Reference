@@ -38,7 +38,7 @@ The Package Tracking feature in the Norske Tjenester app allows users to track t
 
 * Ensure that the tracking number is entered correctly in the app settings.
 * If the tracking information is not updating, check your internet connection and try refreshing the data.
-* For further assistance, users can create a diagnostic report within the Homey app and email it to nt@coderax.dev for support.
+* For further assistance, users can create a diagnostic report within the Homey app and email it to [nt@coderax.dev](mailto:nt@coderax.dev?subject=Issue%20with%20Sporing%20in%20Norske%20tjenester%20for%20Homey%20Pro) for support.
 
 ### **Privacy and Data Usage**
 

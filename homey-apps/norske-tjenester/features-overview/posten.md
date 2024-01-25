@@ -38,7 +38,7 @@ The Posten functionality in the Norske Tjenester app allows users to stay update
 ### **Troubleshooting**
 
 * If you encounter issues with the Posten functionality, check your postal code settings and ensure your Homey Pro is connected to the internet.
-* For more detailed troubleshooting, users can create a diagnostic report within the Homey app and email it to nt@coderax.dev for support.
+* For more detailed troubleshooting, users can create a diagnostic report within the Homey app and email it to [nt@coderax.dev](mailto:nt@coderax.dev?subject=Issue%20with%20Posten%20in%20Norske%20tjenester%20for%20Homey%20Pro) for support.
 
 ### **Privacy and Data Usage**
 
