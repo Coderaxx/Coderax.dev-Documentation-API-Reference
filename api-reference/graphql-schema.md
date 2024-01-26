@@ -14,6 +14,7 @@ layout:
 
 # GraphQL Schema
 
+{% code fullWidth="false" %}
 ```graphql
 type Query {
     RenovationAPI: RenovationAPI
@@ -22,9 +23,22 @@ type Query {
 
 type RenovationAPI {
     Providers: [Provider]
-    AddressInfo(streetName: String!, houseNumber: String!, postCode: String!, providerName: String): AddressInfo
-    NextPickup(providerName: String!, AddressOrAddressId: String!, streetCode: String, countyID: String): [NextPickup]
-    CollectionDates(providerName: String!, AddressOrAddressId: String!, streetCode: String, countyID: String): [CollectionDates]
+    AddressInfo(streetName: String!,
+        houseNumber: String!,
+        postCode: String!,
+        providerName: String
+    ): AddressInfo
+    NextPickup(providerName: String!,
+        AddressOrAddressId: String!,
+        streetCode: String,
+        countyID: String
+    ): [NextPickup]
+    CollectionDates(
+        providerName: String!,
+        AddressOrAddressId: String!,
+        streetCode: String,
+        countyID: String
+    ): [CollectionDates]
 }
 
 type Provider {
@@ -72,3 +86,4 @@ type WaterTemperatures {
     sourceDisplayName: String
 }
 ```
+{% endcode %}
