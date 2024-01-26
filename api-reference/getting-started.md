@@ -16,7 +16,7 @@ layout:
 
 Welcome to the API documentation! Here's everything you need to know to start using the APIs effectively.
 
-## Get your API keys
+### Get your API keys
 
 ~~Your API requests are authenticated using API keys. Any request that doesn't include an API key will return an error.~~
 

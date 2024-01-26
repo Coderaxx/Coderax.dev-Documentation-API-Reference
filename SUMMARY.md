@@ -8,7 +8,6 @@
 
 * [Getting Started](homey-apps/getting-started.md)
 * [🇳🇴 Norske tjenester](homey-apps/norske-tjenester/README.md)
-  * [Introduction](homey-apps/norske-tjenester/introduction.md)
   * [Getting Started](homey-apps/norske-tjenester/getting-started.md)
   * [Features Overview](homey-apps/norske-tjenester/features-overview/README.md)
     * [Posten](homey-apps/norske-tjenester/features-overview/posten.md)
@@ -22,12 +21,10 @@
   * [Supported Waste Providers](homey-apps/norske-tjenester/supported-waste-providers.md)
   * [Troubleshooting and FAQs](homey-apps/norske-tjenester/troubleshooting-and-faqs.md)
 * [⭐ Polestar](homey-apps/polestar/README.md)
-  * [Introduction](homey-apps/polestar/introduction.md)
   * [Getting Started](homey-apps/polestar/getting-started.md)
   * [Driver Details](homey-apps/polestar/driver-details.md)
   * [Troubleshooting and FAQs](homey-apps/polestar/troubleshooting-and-faqs.md)
 * [♨ Mill Heating](homey-apps/mill-heating/README.md)
-  * [Introduction](homey-apps/mill-heating/introduction.md)
   * [Getting Started](homey-apps/mill-heating/getting-started.md)
   * [Understanding Mill Drivers](homey-apps/mill-heating/understanding-mill-drivers/README.md)
     * [Mill v1](homey-apps/mill-heating/understanding-mill-drivers/mill-v1.md)
@@ -38,6 +35,7 @@
 ## API Reference
 
 * [Getting Started](api-reference/getting-started.md)
+* [GraphQL Schema](api-reference/graphql-schema.md)
 * [🗑 RenovationAPI Reference](api-reference/renovation/README.md)
   * [Providers](api-reference/renovation/providers.md)
   * [AddressInfo](api-reference/renovation/addressinfo.md)
