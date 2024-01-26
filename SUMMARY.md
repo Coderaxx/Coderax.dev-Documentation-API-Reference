@@ -29,7 +29,9 @@
 * [♨ Mill Heating](homey-apps/mill-heating/README.md)
   * [Introduction](homey-apps/mill-heating/introduction.md)
   * [Getting Started](homey-apps/mill-heating/getting-started.md)
-  * [Understanding Mill Drivers](homey-apps/mill-heating/understanding-mill-drivers.md)
+  * [Understanding Mill Drivers](homey-apps/mill-heating/understanding-mill-drivers/README.md)
+    * [Mill v1](homey-apps/mill-heating/understanding-mill-drivers/mill-v1.md)
+    * [Mill v2](homey-apps/mill-heating/understanding-mill-drivers/mill-v2.md)
   * [Using the App](homey-apps/mill-heating/using-the-app.md)
   * [Troubleshooting and FAQs](homey-apps/mill-heating/troubleshooting-and-faqs.md)
 
