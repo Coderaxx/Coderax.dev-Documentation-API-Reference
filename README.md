@@ -9,7 +9,7 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: true
+    visible: false
 ---
 
 # 👋 Welcome!
@@ -21,3 +21,15 @@ Welcome to my Homey Apps & API docs! Here you'll find all the documentation you 
 
 
 ### Jump in to the app documentation
+
+{% content-ref url="homey-apps/getting-started.md" %}
+[getting-started.md](homey-apps/getting-started.md)
+{% endcontent-ref %}
+
+***
+
+### Jump in to the API documentation
+
+{% content-ref url="api-reference/getting-started.md" %}
+[getting-started.md](api-reference/getting-started.md)
+{% endcontent-ref %}
