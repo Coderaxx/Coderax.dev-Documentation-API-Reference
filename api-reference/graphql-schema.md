@@ -23,12 +23,14 @@ type Query {
 
 type RenovationAPI {
     Providers: [Provider]
-    AddressInfo(streetName: String!,
+    AddressInfo(
+        streetName: String!,
         houseNumber: String!,
         postCode: String!,
         providerName: String
     ): AddressInfo
-    NextPickup(providerName: String!,
+    NextPickup(
+        providerName: String!,
         AddressOrAddressId: String!,
         streetCode: String,
         countyID: String
