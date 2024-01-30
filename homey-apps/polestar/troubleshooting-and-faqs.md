@@ -21,11 +21,11 @@ layout:
 
 ### **Q1: How do I install the Polestar app on my Homey Pro?**
 
-**A:** To install the Polestar app, open the Homey app, go to 'Apps', search for 'Polestar', and click 'Install'. Follow the on-screen instructions to complete the installation.
+#### **A:** To install the Polestar app, open the Homey app, go to 'Apps', search for 'Polestar', and click 'Install'. Follow the on-screen instructions to complete the installation.
 
 ### **Q2: What are the differences between the ps2, polestar-2-csv, and polestar-2 drivers?**
 
-**A:**
+#### **A:**
 
 * **ps2**: Uses the official Polestar API for real-time data and control.
 * **polestar-2-csv**: Connects through the "Car Stats Viewer" app for detailed vehicle statistics.
@@ -33,7 +33,7 @@ layout:
 
 ### **Q3: How can I connect my Polestar vehicle to the Homey app?**
 
-**A:** Depending on the driver you're using:
+#### **A:** Depending on the driver you're using:
 
 * For **ps2**, follow the instructions provided in the app for connecting via the official Polestar API.
 * For **polestar-2-csv**, use the "Car Stats Viewer" app to establish a connection.
