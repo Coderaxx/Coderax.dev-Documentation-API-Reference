@@ -6,7 +6,7 @@ description: >-
 
 # Troubleshooting and FAQs
 
-### **Common Issues and Solutions**
+## **Common Issues and Solutions**
 
 ***
 
