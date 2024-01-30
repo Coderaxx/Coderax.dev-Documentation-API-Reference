@@ -16,18 +16,16 @@ layout:
 
 ***
 
-### **Controlling Your Mill Heaters**
+## **Controlling Your Mill Heaters**
 
 * Thermostat Mode Changes: Trigger actions when the thermostat mode changes.
 * Conditions: Check if the thermostat is heating or not, and what mode it's in.
 * Actions: Set the thermostat mode to Comfort, Sleep, Away, or Program.
 
-### **Pro Tips**
+## **Pro Tips**
 
 * For full control with Homey, enable "Control Device Individually" in the Mill app.
 * Now supports Energy (requires re-pairing if the device was added before version 1.0.6).
-
-####
 
 ## Privacy and Disclaimer
 

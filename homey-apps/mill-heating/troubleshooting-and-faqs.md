@@ -20,3 +20,8 @@ layout:
 {% hint style="warning" %}
 **To be added**
 {% endhint %}
+
+## Troubleshooting
+
+* If you encounter issues, visit [Mill Migration Check](https://crdx.us/millMigration) and opt for “Check migration status + Migrate (if needed)”.
+* Restart the Mill App in Homey via Homey’s settings if necessary.
