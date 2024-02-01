@@ -14,6 +14,10 @@ layout:
 
 # Polestar API
 
+{% hint style="info" %}
+**Coming soon!**
+{% endhint %}
+
 ### Introduction
 
 The "Polestar API" driver for Homey offers an unofficial integration with Polestar, enabling direct data retrieval about your Polestar vehicle. This driver leverages the capabilities of the new "My Page" feature on the Polestar website to access real-time vehicle information.
