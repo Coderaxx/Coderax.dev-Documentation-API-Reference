@@ -24,3 +24,4 @@ layout:
 * **Bathing Temperatures**: Know the best time to take a dip with updates from yr.no.
 * **Exchange Rates**: Get the latest currency exchange rates.
 * **Air Quality Index**: Get the current air quality index for your area.
+* **Lightning Alert**: Get real-time notifications when there's a chance of lightning nearby.

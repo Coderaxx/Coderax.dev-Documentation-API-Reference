@@ -18,6 +18,7 @@
     * [Badetemperatur](homey-apps/norske-tjenester/features-overview/badetemperatur.md)
     * [Valutakurs](homey-apps/norske-tjenester/features-overview/valutakurs.md)
     * [Luftkvalitetsindeks](homey-apps/norske-tjenester/features-overview/luftkvalitetsindeks.md)
+    * [Lynvarsling](homey-apps/norske-tjenester/features-overview/lynvarsling.md)
   * [Supported Waste Providers](homey-apps/norske-tjenester/supported-waste-providers.md)
   * [Troubleshooting and FAQs](homey-apps/norske-tjenester/troubleshooting-and-faqs.md)
 * [⭐ Polestar](homey-apps/polestar/README.md)
