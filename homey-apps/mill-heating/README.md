@@ -21,7 +21,7 @@ layout:
 # ♨️ Mill Heating
 
 {% hint style="warning" %}
-### :warning: **Important Update Regarding Mill Heating Norway Homey App**:
+### :warning: **Important Update Regarding Mill Heating Norway Homey App**
 
 Please be aware that this app is no longer maintained by the original developer. The ownership and maintenance responsibility for the Mill Heating app has been transferred to Ivelin Ivanov. The app will continue to operate as usual, and all documentation here remains relevant. This information will remain available until Ivelin takes over the documentation responsibility, or the information is no longer relevant for the app.
 {% endhint %}

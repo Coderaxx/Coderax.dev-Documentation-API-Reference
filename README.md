@@ -15,7 +15,7 @@ layout:
 # 👋 Welcome!
 
 {% hint style="warning" %}
-### **Important Information**
+### :warning: **Important Information**
 
 There is crucial information about the Mill Heating app for Homey Pro that needs your immediate attention. Please navigate to [Mill Heating](homey-apps/mill-heating/) under "Homey Apps" to read this important information as soon as possible.
 {% endhint %}
