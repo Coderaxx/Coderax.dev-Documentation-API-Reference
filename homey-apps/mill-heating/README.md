@@ -18,11 +18,13 @@ layout:
     visible: true
 ---
 
-# ♨ Mill Heating
+# ♨️ Mill Heating
 
-Welcome to the Mill Heating Norway Homey App, a specialized solution designed to integrate Mill Heating devices seamlessly with your Homey ecosystem. This app provides an intuitive and efficient way to control and monitor your Mill Heating devices, ensuring a comfortable and energy-efficient home environment.
+{% hint style="warning" %}
+### :warning: **Important Update Regarding Mill Heating Norway Homey App**:
 
-### App Overview
+Please be aware that this app is no longer maintained by the original developer. The ownership and maintenance responsibility for the Mill Heating app has been transferred to Ivelin Ivanov. The app will continue to operate as usual, and all documentation here remains relevant. This information will remain available until Ivelin takes over the documentation responsibility, or the information is no longer relevant for the app.
+{% endhint %}
 
 The Mill Heating Norway Homey App is dedicated to enhancing your experience with Mill Heating products. It allows you to control various aspects of your Mill heaters, such as turning them on/off, setting modes, and monitoring the current status, all from within the Homey app.
 
